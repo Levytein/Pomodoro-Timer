@@ -23,6 +23,7 @@ const BreakLength = ({ breakLength, setBreakLength, isRunning }) => {
   const triggerHidden=()=>
   {
       const breakdiv = document.getElementById('break-div');
+      
   }
   return (
     <div id='break-div' className={`flex flex-col items-center bg-gray-800 p-4 md:p-6 rounded-lg shadow-lg w-full transition-all ${isRunning ? 'fade-out' : ''}`}>
